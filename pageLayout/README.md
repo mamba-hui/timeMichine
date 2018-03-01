@@ -10,3 +10,4 @@
 - 风景列表  
     - 传统实现 [code](./风景列表/custom.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/风景列表/custom.html) 
     - flex实现 [code](./风景列表/flex.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/风景列表/flex.html) 
+- 简书列表（其中有多行文本溢出-->省略号）[code](./jianshu.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/jianshu.html)

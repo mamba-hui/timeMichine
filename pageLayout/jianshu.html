@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>简书</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .layout {
+      max-width: 700px;
+      min-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .clearfix:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .item {
+      position: relative;
+      margin-top: 100px;
+      border-top: 1px solid #F0F0F0;
+      border-bottom: 1px solid #F0F0F0;
+      padding: 17px 0;
+    }
+
+    .item > .article-pic {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 150px;
+      height: 120px;
+    }
+
+    .item .content {
+      margin-right: 165px;
+    }
+
+    .item .article-info {
+      font-size: 13px;
+    }
+
+    .item .article-info .avatar {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+
+    .item .article-info .avatar img  {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+
+    .item .article-info .author {
+      display: inline-block;
+      margin-right: 5px;
+      color: #000;
+      vertical-align: middle;
+    }
+
+    .item .article-info .time {
+      display: inline-block;
+      color: #969696;
+      vertical-align: middle;
+    }
+
+    .item .content > h3 {
+      margin: 14px 0;
+    }
+
+    .item .content > h3 a {
+      color: #333;
+    }
+
+    .item .content > p {
+      position: relative;
+      margin-top: 0;
+      margin-bottom :14px;
+      height: 48px;
+      line-height: 24px;
+      font-size: 13px;
+      overflow: hidden;
+    }
+
+    .item .content > p:after {
+      content: "...";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      padding-left: 30px;
+      background: linear-gradient(90deg, transparent, #fff 55%);
+    }
+
+    .item .content > .tag a {
+      padding: 2px 6px;
+      border: 1px solid;
+      border-radius: 5px;
+      font-size: 12px;
+      color: #F2907F;
+    }
+  </style>
+</head>
+<body>
+<div class="item layout">
+  <img class="article-pic" src="../photos/2.jpg" alt="文章图片">
+  <div class="content">
+    <div class="article-info">
+      <a class="avatar" href="#">
+        <img src="../photos/mamba.jpg" alt="用户头像">
+      </a>
+      <a class="author" href="#">贺文恢</a>
+      <span class="time">8小时前</span>
+    </div>
+    <h3>
+      <a class="title" href="#">坚持“读书”这些年，人生真是太值了</a>
+    </h3>
+    <p>
+      这种柔腻的表达，很符合现在普遍的审美观。他们读诗不假，不过是在读精致之诗，读情趣之诗，读刻意之诗。他们已经不像上山下乡那时的青年艰苦朴素，上一代蠕动着生活，下一代终于可以挺起腰杆。只是，我们是悲哀的一代，蠕动可以接地气，去感受那层扎根于天玄地黄的生命动力，从而懂得诗歌的美妙，但我们已经阻隔了这层传统生活方式，现在既不想爬，也站不好，只能歪歪斜斜，去开发歪歪斜斜的诗。
+    </p>
+    <div class="tag">
+      <a href="#">读书</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
