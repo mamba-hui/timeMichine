@@ -1,12 +1,12 @@
 - 单栏布局  
-    - 传统实现 [code](./custom.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/单栏布局/custom.html) 
-    - flex实现 [code](./flex.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/单栏布局/flex.html) 
+    - 传统实现 [code](./单栏布局/custom.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/单栏布局/custom.html) 
+    - flex实现 [code](./单栏布局/flex.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/单栏布局/flex.html) 
 - 两栏布局  
-    - 传统实现 [code](./custom.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/两栏布局/custom.html) 
-    - flex实现 [code](./flex.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/两栏布局/flex.html) 
+    - 传统实现 [code](./两栏布局/custom.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/两栏布局/custom.html) 
+    - flex实现 [code](./两栏布局/flex.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/两栏布局/flex.html) 
 - 三栏布局  
-    - 传统实现 [code](./custom.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/三栏布局/custom.html) 
-    - flex实现 [code](./flex.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/三栏布局/flex.html) 
+    - 传统实现 [code](./三栏布局/custom.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/三栏布局/custom.html) 
+    - flex实现 [code](./三栏布局/flex.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/三栏布局/flex.html) 
 - 风景列表  
-    - 传统实现 [code](./custom.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/风景列表/custom.html) 
-    - flex实现 [code](./flex.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/风景列表/flex.html) 
+    - 传统实现 [code](./风景列表/custom.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/风景列表/custom.html) 
+    - flex实现 [code](./风景列表/flex.html) [preview](https://mamba-hui.github.io/timeMichine/pageLayout/风景列表/flex.html) 
