@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>flex三栏布局</title>
+  <style>
+    .layout {
+      max-width: 960px;
+      min-width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .wrap {
+      position: relative;
+      display: flex;
+      border: 1px solid;
+      padding: 16px 16px 8px 8px;
+    }
+
+    .wrap > .close {
+      position: absolute;
+      top: -5px;
+      right: 0;
+      font-size: 20px;
+    }
+
+    .wrap > nav {
+      width: 150px;
+      height: 400px;
+      background-color: #ddd;
+    }
+
+    .wrap > .ad {
+      width: 200px;
+      height: 450px;
+      background-color: #ddd;
+    }
+
+    .wrap > main {
+      height: 500px;
+      flex-grow: 1;
+      margin: 0px 10px;
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+<div class="wrap layout">
+  <span class="close">×</span>
+  <nav></nav>
+  <main></main>
+  <div class="ad"></div>
+</div>
+</body>
+</html>

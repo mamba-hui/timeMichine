@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>单栏布局flex实现</title>
+  <style>
+    body, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    .layout {
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    body > header {
+      background-color: #0665c4;
+    }
+
+    header > .inner {
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    header .avatar {
+      border-radius: 50%;
+    }
+
+    body > nav {
+      background-color: #ccc;
+    }
+
+    body > nav > ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    body > nav li a {
+      display: block;
+      padding: 10px 16px;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #0E78E6;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="layout inner">
+    <img src="../../photos/mamba.jpg" alt="mamba" class="avatar" width="25" height="25">
+    <button class="login"><a href="#">登录</a></button>
+  </div>
+</header>
+<nav>
+  <ul>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">更多</a></li>
+  </ul>
+</nav>
+</body>
+</html>

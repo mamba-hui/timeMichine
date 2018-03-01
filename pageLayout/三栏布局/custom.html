@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>传统三栏布局</title>
+  <style>
+    .layout {
+      max-width: 960px;
+      min-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .clearfix:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    .wrap {
+      position: relative;
+      border: 1px solid;
+      padding: 16px 16px 8px 8px;
+    }
+
+    .wrap > .close {
+      position: absolute;
+      top: -5px;
+      right: 0;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .wrap > nav {
+      float: left;
+      width: 150px;
+      height: 400px;
+      background-color: #ccc;
+    }
+
+    .wrap > .ad {
+      float: right;
+      width: 200px;
+      height: 450px;
+      background-color: #ccc;
+    }
+
+    .wrap > main {
+      margin-left: 160px;
+      margin-right: 210px;
+      height: 500px;
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+<div class="wrap layout clearfix">
+  <span class="close">×</span>
+  <nav></nav>
+  <div class="ad"></div>
+  <main></main>
+</div>
+</body>
+</html>
